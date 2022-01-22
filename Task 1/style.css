@@ -1,0 +1,219 @@
+body {
+  background:
+        linear-gradient(black, transparent),
+        linear-gradient(to top left, black, transparent),
+        linear-gradient(to top right, maroon, transparent);
+    background-blend-mode: screen;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+}
+
+                               /* Starting */
+
+#heading{
+  font-size: 2rem;
+  color: white;
+}
+.start{
+  background:
+        linear-gradient(maroon, transparent),
+        linear-gradient(to top left, black, transparent),
+        linear-gradient(to top right, black, transparent);
+    background-blend-mode: screen;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+                             /* Hello-Section */
+.middle-container{
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+.profile{
+  border:solid 10px;
+  border-color: white;
+}
+                              /* For Links */
+a{
+color: red;
+font-family: "Georgia",sans-serif;
+margin: 10px;
+text-decoration: none;
+}
+a:hover{
+color: pink;
+}
+
+
+                               /* Features */
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+}
+.icon{
+  color: maroon;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: red;
+}
+
+                              /* Headings */
+h1{
+  font-style: italic;
+  margin: 50px auto 0 auto;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h2{
+  color: red;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+h3{
+  color: red;
+}
+h4{
+  color: pink;
+  font-family: "Georgia",sans-serif;
+}
+p{
+  color: white;
+}
+hr {
+    background-color: white;
+    border-style: dashed;
+    border-bottom-style: groove;
+    width: 10%;
+    margin: 100px auto;
+}
+                          /* Skills & Hobbies */
+.skills{
+  border:solid 10px;
+  border-color: white;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+  padding-left: 2%;
+}
+.coding{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.hobbies{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+  padding-left: 2%;
+}
+.cycle{
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  float: right;
+  margin-right: 30px;
+}
+
+                                /* CONTACT-ME */
+.card-deck{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+.btn {
+  background: red;
+  background-image: -webkit-linear-gradient(top, red, black);
+  background-image: -moz-linear-gradient(top, red, black);
+  background-image: -ms-linear-gradient(top, red, black);
+  background-image: -o-linear-gradient(top, red, black);
+  background-image: linear-gradient(to bottom, red, black);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "tahoma",sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: black;
+  background-image: -webkit-linear-gradient(top, black, red);
+  background-image: -moz-linear-gradient(top, black, red);
+  background-image: -ms-linear-gradient(top, black, red);
+  background-image: -o-linear-gradient(top, black, red);
+  background-image: linear-gradient(to bottom, black, red);
+  color: #ffffff;
+  text-decoration: none;
+}
+.invisible{
+  visibility: hidden;
+  }
+.huge{
+  font-size: 10rem;
+}
+           /* Last-Section */
+.copy{
+  color: red;
+  margin-bottom: 1rem;
+}
+.copy:hover{
+  color: pink;
+}
+.copyright{
+  background-color: black;
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.copyright:hover{
+  color: pink;
+}
+
+                          /* For Mobile  */
+@media (max-width:834px) {
+  .cycle{
+    float: inherit;
+    height: 140px;
+    width: 140px;
+    position: static;
+  }
+  .coding{
+    float: inherit;
+    height: 140px;
+    width: 140px;
+    position: static;
+  }
+  .hobbies{
+    text-align: center;
+    width: 80%;
+  }
+  .skill-row{
+    text-align: center;
+    width: 80%;
+  }
+
+}
