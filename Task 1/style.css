@@ -1,9 +1,5 @@
 body {
-  background:
-        linear-gradient(black, transparent),
-        linear-gradient(to top left, black, transparent),
-        linear-gradient(to top right, maroon, transparent);
-    background-blend-mode: screen;
+  background-color: black;
   margin: 0;
   text-align: center;
   font-family: "Montserrat",sans-serif;
@@ -11,6 +7,13 @@ body {
 
                                /* Starting */
 
+.A-sq{
+  height: 70px;
+  width: 70px
+}
+.pic{
+  border-radius: 50%;
+}
 #heading{
   font-size: 2rem;
   color: white;
@@ -24,6 +27,13 @@ body {
   margin: 20px;
   padding: 20px;
   position: relative;
+}
+.profile{
+  background:
+  linear-gradient(black, transparent),
+  linear-gradient(to top left, black, transparent),
+  linear-gradient(to top right, maroon, transparent);
+    background-blend-mode: screen;
 }
 .navbar {
   width: 100%;
@@ -44,6 +54,10 @@ body {
 .profile{
   border:solid 10px;
   border-color: white;
+}
+.dog{
+  height: 350px;
+  width: 350px;
 }
                               /* For Links */
 a{
@@ -105,6 +119,11 @@ hr {
 }
                           /* Skills & Hobbies */
 .skills{
+  background:
+  linear-gradient(black, transparent),
+  linear-gradient(to top left, black, transparent),
+  linear-gradient(to top right, maroon, transparent);
+    background-blend-mode: screen;
   border:solid 10px;
   border-color: white;
 }
@@ -116,7 +135,6 @@ hr {
   padding-left: 2%;
 }
 .coding{
-  border-radius: 50%;
   height: 100px;
   width: 100px;
   float: left;
@@ -130,7 +148,6 @@ hr {
   padding-left: 2%;
 }
 .cycle{
-  border-radius: 50%;
   height: 140px;
   width: 140px;
   float: right;
@@ -195,13 +212,31 @@ hr {
 
                           /* For Mobile  */
 @media (max-width:834px) {
+  .pic{
+    float: inherit;
+    height: 240px;
+    width: 240px;
+    position: static;
+  }
   .cycle{
     float: inherit;
     height: 140px;
     width: 140px;
     position: static;
   }
+  .A-sq{
+    float: inherit;
+    height: 60px;
+    width: 60px;
+    position: static;
+  }
   .coding{
+    float: inherit;
+    height: 140px;
+    width: 140px;
+    position: static;
+  }
+  .dog{
     float: inherit;
     height: 140px;
     width: 140px;
@@ -217,3 +252,4 @@ hr {
   }
 
 }
+
