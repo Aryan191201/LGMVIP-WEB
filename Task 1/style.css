@@ -55,7 +55,7 @@ body {
   border:solid 10px;
   border-color: white;
 }
-.dog{
+.drum{
   height: 350px;
   width: 350px;
 }
@@ -117,8 +117,8 @@ hr {
     width: 10%;
     margin: 100px auto;
 }
-                          /* Skills & Hobbies */
-.skills{
+                          /* parts */
+.parts{
   background:
   linear-gradient(black, transparent),
   linear-gradient(to top left, black, transparent),
@@ -127,27 +127,27 @@ hr {
   border:solid 10px;
   border-color: white;
 }
-.skill-row{
+.part-row{
   width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
   text-align: left;
   padding-left: 2%;
 }
-.coding{
+.set{
   height: 100px;
   width: 100px;
   float: left;
   margin-right: 30px;
 }
-.hobbies{
+.part-row2{
   width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
   text-align: left;
   padding-left: 2%;
 }
-.cycle{
+.sets{
   height: 140px;
   width: 140px;
   float: right;
@@ -218,7 +218,7 @@ hr {
     width: 240px;
     position: static;
   }
-  .cycle{
+  .sets{
     float: inherit;
     height: 140px;
     width: 140px;
@@ -230,26 +230,27 @@ hr {
     width: 60px;
     position: static;
   }
-  .coding{
+  .set{
     float: inherit;
     height: 140px;
     width: 140px;
     position: static;
   }
-  .dog{
+  .drum{
     float: inherit;
     height: 140px;
     width: 140px;
     position: static;
   }
-  .hobbies{
+  .part-row2{
     text-align: center;
     width: 80%;
   }
-  .skill-row{
+  .part-row{
     text-align: center;
     width: 80%;
   }
 
 }
+
 
